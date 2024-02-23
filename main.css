@@ -8,13 +8,15 @@ html, body {
 #logo {
     /* DO NOT EDIT */
     vertical-align: bottom;
-
-    /* Your code here 
+    height: 30px;
+    width:30px;
+    margin-bottom: 7px;
+    
 }
 
 
 h1 {
-    /* Your code here 
+     display: inline;
 }
 
 /* Phase 2 */
@@ -22,12 +24,19 @@ h1 {
 .box {
     /* DO NOT EDIT */
     vertical-align: top;
-
-    /* Your code here 
+    display: inline-block;
+    border: 4px dotted black;
+    background-color: rgba(255,255,50, .7);
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding: 20px;
 }
 
 .alternate {
-    /* Your code here 
+    box-sizing: border-box;
+    width:120px;
+    height:120px;
 }
 
 /* Phase 3 */
@@ -43,13 +52,15 @@ h1 {
     /* DO NOT EDIT */
     background-color: lightgray;
     font-size: larger;
-
-    /* Your code here 
+    width: fit-content;
+    margin-bottom: 10px;
+    margin: auto;
+    
 }
 
 .attribution {
     /* DO NOT EDIT */
     font-style: italic;
 
-    /* Your code here 
+    display: block;
 }
